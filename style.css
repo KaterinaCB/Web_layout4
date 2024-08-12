@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Gilroy-Bold';
+    src: url('./fonts/Gilroy-Bold.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Medium';
+    src: url('./fonts/Gilroy-Medium.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Regular';
+    src: url('./fonts/Gilroy-Regular.woff2');
+}
+
+@font-face {
+    font-family: 'Gilroy-Semibold';
+    src: url('./fonts/Gilroy-Semibold.woff2');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1174px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 40px 0 0 0;
+    margin-bottom: 84px;
+}
+
+.navigation {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 460px;
+}
+
+.navigationMenu {
+    max-width: 577px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation_home {
+    font-family: "Gilroy-Semibold";
+    font-weight: 600;
+    color: #f25822;
+}
+
+.navigation_menu {
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+    color: #000;
+}
+
+.main {
+    margin-bottom: 100px;
+}
+
+.main_content {
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+}
+
+.mainContent_leftSide h1 {
+    font-family: "Gilroy-Bold";
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 120%;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.mainContent_leftSide h2 {
+    font-family: "Gilroy-Regular";
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    color: #888;
+    margin-bottom: 32px;
+}
+
+.mainContent_button {
+    font-family: "Gilroy-Semibold";
+    font-weight: 600;
+    font-size: 16px;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.rightBtm{
+    color: #fff;
+    border-radius: 56px;
+    box-shadow: 4px 4px 8px 0 rgba(248, 88, 34, 0.2);
+    background: #f25822;
+}
+
+.leftBtm {
+    color: #aaa;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    outline: none;
+}
+
+.footer {
+    margin-bottom: 100px;
+}
+
+.logos {
+    display: flex;
+    justify-content: space-between;
+}
+
