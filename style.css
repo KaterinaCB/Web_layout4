@@ -51,7 +51,7 @@ img {
 }
 
 .navigationMenu {
-    max-width: 577px;
+    width: 577px;
     display: flex;
     justify-content: space-between;
 }
